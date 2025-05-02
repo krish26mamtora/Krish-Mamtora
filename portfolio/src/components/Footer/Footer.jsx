@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">
-            <span className="logo-text">DevPortfolio</span>
+            <span className="logo-text">Krish Mamtora</span>
           </div>
           
           <nav className="footer-nav">
@@ -24,20 +24,20 @@ const Footer = () => {
           </nav>
           
           <div className="footer-social">
-            <a href="#" className="social-icon" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/krish-mamtora-455b97252/" target="_blank"  className="social-icon" aria-label="LinkedIn">
               <span>LinkedIn</span>
             </a>
-            <a href="#" className="social-icon" aria-label="GitHub">
+            <a href="https://github.com/krish26mamtora"  target="_blank" className="social-icon" aria-label="GitHub">
               <span>GitHub</span>
             </a>
-            <a href="#" className="social-icon" aria-label="Twitter">
-              <span>Twitter</span>
+            <a href="https://medium.com/@krishmamtora26" target="_blank"  className="social-icon" aria-label="Twitter">
+              <span>Medium</span>
             </a>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} John Doe. All rights reserved.</p>
+          <p>&copy; {currentYear} Krish Mamtora. All rights reserved.</p>
           <p>Built with React and vanilla CSS</p>
         </div>
       </div>

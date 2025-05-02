@@ -168,8 +168,9 @@ const Hero = () => {
             <span className="cursor">|</span>
           </div>
           <p className="hero-description">
-          I 
+          I am a passionate full-stack web developer, eager to create innovative and efficient solutions.
           </p>
+
           <div className="hero-buttons">
             <a href="#projects" className="btn btn-primary">View My Work</a>
             <a href="#contact" className="btn btn-outline">Get In Touch</a>

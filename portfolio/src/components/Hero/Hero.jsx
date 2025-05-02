@@ -180,7 +180,7 @@ const Hero = () => {
           <div className="hero-image-wrapper" ref={profileRef}>
             <div className="profile-image">
               <img 
-                src="../src/assets/profileimg.jpeg" 
+                src="../../../profileimg.jpeg" 
                 alt="Krish Mamtora" 
               />
             </div>

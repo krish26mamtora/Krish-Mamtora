@@ -20,7 +20,7 @@ const projectsData = [
   id: 2,
   title: 'Student Strength Analysis System',
   description: 'A web and mobile-based system for analyzing student performance across academic, co-curricular, and extracurricular activities.',
-  image: 'https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1500&q=80',
+  image: 'https-e10032774350?auto=format&fit=crop&w=1500&q=80',
   tags: ['MySQL', 'React', 'Flutter','Express.js', 'Node.js', 'Data Visualization'],
   demoUrl: '#',
   repoUrl: '#',

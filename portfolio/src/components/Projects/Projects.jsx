@@ -10,7 +10,7 @@ const projectsData = [
     title: 'Real-Time Chatting Platform',
     description: 'A PHP-based real-time chatting and social media platform with WebSockets, user authentication, friend system, and live feed.',
     image: '/chat1.avif', 
-    tags: ['PHP', 'WebSockets', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    tags: ['MySQL','PHP', 'WebSockets', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     demoUrl: '#', // Replace with actual demo link
     repoUrl: 'https://github.com/krish26mamtora/ChattingWebsite_PHP', // Replace with actual GitHub repo
     fullDescription: 'A chatting and social media platform built with PHP that lets users chat in real time. It uses WebSockets to ensure messages are delivered instantly. You can sign up with email, send friend requests, and create posts with text or images. There’s also a live feed where you can like, comment, and interact with other users posts.'
@@ -32,7 +32,7 @@ const projectsData = [
     title: 'Complaint Management System (CMS)',
     description: 'A PHP-based web platform for streamlined complaint handling with real-time updates, admin oversight, and detailed reporting.',
     image: '/comp1.jpg', // Replace with your own image if needed
-    tags: ['PHP', 'JavaScript', 'HTML', 'CSS', 'MySQL'],
+    tags: ['PHP', 'JavaScript', 'HTML', 'CSS', 'MySQL','Bootstrap'],
     demoUrl: '#', // Replace with actual demo link
     repoUrl: 'https://github.com/krish26mamtora/CMS_PHP_PROJECT', // Replace with actual GitHub repo
     fullDescription: 'This web platform makes managing complaints super easy. Whether you’re submitting a complaint or tracking its status, the system keeps you in the loop with real-time updates. Admins can oversee and assign complaints, and managers can resolve them. The system is built with PHP and MySQL, so it’s efficient, and it helps make the whole complaint-handling process more transparent.'
@@ -49,23 +49,12 @@ const projectsData = [
   fullDescription: 'This project uses machine learning to classify different types of cricket shots, such as pull, drive, or sweep, using 2D images of the batsman. By analyzing the body movements in the images with MediaPipe, the system detects key body landmarks and maps those movements to specific shots. Various machine learning models were tested, and Random Forest provided the most accurate results for classifying the shots.'
 }
 ,
-// {
-//   id: 5,
-//   title: 'Real Estate Broker CRM',
-//   description: 'A web-based CRM system for managing clients, properties, visit schedules, and rental management.',
-//   image: 'https://images.unsplash.com/photo-1530231760619-bd2d7de0f8d2?auto=format&fit=crop&w=1500&q=80',
-//   tags: ['Spring Boot', 'React', 'Java', 'Real Estate', 'CRM'],
-//   demoUrl: '#',
-//   repoUrl: '#',
-//   fullDescription: 'This web-based CRM system is designed for retail real estate brokers to manage client information, properties, visit schedules, and rental management. Built using Spring Boot for the backend and React for the frontend, the platform allows brokers to add and manage property listings, schedule visits, and handle rental agreements with integrated notification alerts. The system also supports user requirement matching, ensuring efficient client-property pairing. The CRM focuses on internal management without the need for client dashboards or reviews.'
-// }
-,
 {
   id: 5,
   title: 'Number System Conversion Application',
   description: 'A Java-based application for converting numbers between binary, octal, decimal, and hexadecimal number systems.',
   image: '/num2.jpeg',
-  tags: ['Java', 'Swing', 'Number Systems', 'Conversion'],
+  tags: ['Java',  'Number Systems', 'Conversion'],
   demoUrl: '#',
   repoUrl: 'https://github.com/krish26mamtora/Java-Number-System-Converter',
   fullDescription: 'This simple app lets you convert numbers between different number systems—binary, octal, decimal, and hexadecimal. Built with Java Swing, it provides an easy-to-use interface where you can select the system you’re working with and convert numbers seamlessly. Plus, it helps you understand the concepts behind number systems, making it a great learning tool for both beginners and advanced users.'
@@ -142,7 +131,7 @@ const Projects = () => {
           {allTags.map(tag => (
             <button
               key={tag}
-              className={`tag-button ${selectedTags.includes(tag) ? 'active' : ''}`}
+              className={`tag-button-tag ${selectedTags.includes(tag) ? 'active' : ''}`}
               onClick={() => handleTagClick(tag)}
             >
               {tag}

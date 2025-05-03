@@ -11,9 +11,9 @@
     justify-content: center;
   }
   
-  .tag-button {
+  .tag-button-tag {
     padding: 0.5rem 1rem;
-    background-color: var(--card-bg);
+    background-color: var(--card-bg-small);
     border: 1px solid var(--border);
     border-radius: 2rem;
     cursor: pointer;
@@ -21,13 +21,13 @@
     transition: all 0.3s ease;
   }
   
-  .tag-button:hover {
+  .tag-button-tag:hover {
     background-color: var(--accent);
     color: white;
     transform: translateY(-2px);
   }
   
-  .tag-button.active {
+  .tag-button-tag.active {
     background-color: var(--accent);
     color: white;
     border-color: var(--accent);

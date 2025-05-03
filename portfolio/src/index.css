@@ -8,6 +8,7 @@
   --accent-rgb: 255, 107, 107; /* Added RGB values for the accent color */
   --background: #FFFFFF;
   --card-bg: #F8F9FA;
+  --card-bg-small: #F8F9FA;
   --text: #333333;
   --text-secondary: #6C757D;
   --border: #DEE2E6;
@@ -22,6 +23,7 @@ body.dark {
   --accent-rgb: 255, 133, 133; /* Added RGB values for the accent color in dark mode */
   --background: #121212;
   --card-bg: #1E1E1E;
+  --card-bg-small: #949494;
   --text: #E1E1E1;
   --text-secondary: #AAAAAA;
   --border: #333333;

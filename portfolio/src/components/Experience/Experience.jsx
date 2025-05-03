@@ -7,29 +7,31 @@ const experienceData = [
   {
     id: 1,
     company: 'Marwadi University',
-    position: 'ICT - Information and Communication Technology Student',
-    period: '2022 - Present',
-    description: 'Currently pursuing a degree in Information and Communication Technology (ICT) at Marwadi University, with 2 years of coursework completed and in the 6th semester.',
+    position: 'B.Tech ICT Student (Information and Communication Technology)',
+    period: '2022 – Present',
+    description: 'Pursuing a Bachelor of Technology in ICT at Marwadi University, with active exploration in web development, machine learning, and data science.',
     achievements: [
-      'Completed core courses in programming, algorithms, and data structures.',
-      'Gained hands-on experience with various technologies and projects.'
+      'Gained hands-on experience with programming, algorithms, and project development.',
+      'Built academic and personal projects to apply classroom learning in real-world scenarios.'
     ]
-  },
+  }
+,  
   {
     id: 2,
     company: 'BizzYatra',
     position: 'PHP Intern',
     period: 'Summer 2024',
-    description: 'Completed a PHP development internship to enhance web development skills.',
+    description: 'Completed a summer internship focused on backend web development using PHP. Gained exposure to collaborative development practices, code optimization, and working in a professional environment.',
     achievements: [
-      'Developed web applications using PHP and MySQL.',
-      'Learned and applied basic backend development techniques.'
+      'Contributed to a real-time chat system using PHP and WebSockets, improving live communication features.',
+      'Improved skills in debugging, version control, and understanding project workflows.'
     ]
-  },
+  }
+  ,
   {
     id: 3,
     company: 'Shree J.N.V Vidhyalaya',
-    position: '12th Grade Completion (PCM)',
+    position: '12th Grade Completion',
     period: '2022',
     description: 'Completed 12th grade with a focus on Physics, Chemistry, and Mathematics (PCM).',
     achievements: [

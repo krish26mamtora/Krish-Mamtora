@@ -8,8 +8,8 @@ const ResumeDownload = () => {
     downloadBtn.disabled = true;
 
     const link = document.createElement('a');
-    link.href = '/Krish_Resume.pdf'; 
-    link.download = 'Krish_Resume.pdf';
+    link.href = '/resume.pdf'; 
+    link.download = 'resume.pdf';
     link.click();
 
     setTimeout(() => {

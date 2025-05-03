@@ -9,10 +9,10 @@ const projectsData = [
     id: 1,
     title: 'Real-Time Chatting Platform',
     description: 'A PHP-based real-time chatting and social media platform with WebSockets, user authentication, friend system, and live feed.',
-    image: 'https://images.unsplash.com/photo-1624953587684-56f3b3b0e3a3?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80', // Replace with your own image if needed
+    image: '../../../public/chat1.avif', 
     tags: ['PHP', 'WebSockets', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     demoUrl: '#', // Replace with actual demo link
-    repoUrl: '#', // Replace with actual GitHub repo
+    repoUrl: 'https://github.com/krish26mamtora/ChattingWebsite_PHP', // Replace with actual GitHub repo
     fullDescription: 'This real-time chatting and social media platform is built using PHP and WebSockets to enable low-latency communication between users. It features secure user registration and login with email verification, a friend management system (including search and friend requests), and dynamic post creation with text and image uploads. Users can like and comment on posts in a real-time updated feed. The frontend is crafted with HTML, CSS, JavaScript, and Bootstrap, while PHP handles backend logic and WebSocket server communication.'
   }
 ,  
@@ -20,10 +20,10 @@ const projectsData = [
   id: 2,
   title: 'Student Strength Analysis System',
   description: 'A web and mobile-based system for analyzing student performance across academic, co-curricular, and extracurricular activities.',
-  image: 'https-e10032774350?auto=format&fit=crop&w=1500&q=80',
+  image: '../../../public/stu2.png',
   tags: ['MySQL', 'React', 'Flutter','Express.js', 'Node.js', 'Data Visualization'],
   demoUrl: '#',
-  repoUrl: '#',
+  repoUrl: 'https://github.com/Harshdoshi1/HCD-project',
   fullDescription: 'This student analysis system evaluates student performance based on academic scores, co-curricular, and extracurricular activities. Academic metrics include ESE, IA, CSE, TW, Viva, and faculty feedback, while activity-based inputs include hackathons, internships, events, patents, and sports. Each component is weighted by the HOD to calculate overall strength. The platform supports role-based access for students, parents, faculty, class coordinators, and the HOD. Students and parents can track progress via a web or mobile'
 }
   ,
@@ -31,10 +31,10 @@ const projectsData = [
     id: 3,
     title: 'Complaint Management System (CMS)',
     description: 'A PHP-based web platform for streamlined complaint handling with real-time updates, admin oversight, and detailed reporting.',
-    image: 'https://images.unsplash.com/photo-1605902711622-cfb43c44367f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80', // Replace with your own image if needed
+    image: '../../../public/comp1.jpg', // Replace with your own image if needed
     tags: ['PHP', 'JavaScript', 'HTML', 'CSS', 'MySQL'],
     demoUrl: '#', // Replace with actual demo link
-    repoUrl: '#', // Replace with actual GitHub repo
+    repoUrl: 'https://github.com/krish26mamtora/CMS_PHP_PROJECT', // Replace with actual GitHub repo
     fullDescription: 'The Complaint Management System (CMS) is a PHP-based platform designed to enhance complaint handling within organizations. It supports user-friendly complaint submissions, real-time status updates, and centralized admin control. Admins review and assign complaints to relevant managers who investigate and resolve the issues. Users receive timely updates, while admins can track performance through comprehensive reports. The system improves transparency, accountability, and user satisfaction by streamlining the entire complaint workflow. Built using PHP and JavaScript for the backend, with a MySQL database and a clean HTML/CSS frontend.'
   }
 , 
@@ -42,32 +42,32 @@ const projectsData = [
   id: 4,
   title: 'Cricket Shot Classification',
   description: 'An ML project to classify cricket shots using short video clips and body landmark detection.',
-  image: 'https://images.unsplash.com/photo-1602481943882-349918f77d8c?auto=format&fit=crop&w=1500&q=80',
-  tags: ['Python', 'MediaPipe', 'Random Forest', 'ML', 'OpenCV'],
+  image: '../../../public/shot1.png',
+  tags: ['Python', 'MediaPipe', 'Random Forest', 'ML'],
   demoUrl: '#',
-  repoUrl: '#',
+  repoUrl: 'https://github.com/krish26mamtora/ML-Cricket-Shot-Classification',
   fullDescription: 'This machine learning project classifies different cricket shots (e.g., pull, drive, sweep) using 1–2 second video clips of batsmen. MediaPipe is used to extract 3D body landmarks (x, y, z coordinates), which serve as input features. Various models were tested, including Logistic Regression, SVM, Decision Tree, KNN, and LSTM, with Random Forest achieving the highest accuracy. The system processes video frames, detects poses, and maps body movement patterns to specific shot types, enabling accurate and fast classification.'
 }
 ,
-{
-  id: 5,
-  title: 'Real Estate Broker CRM',
-  description: 'A web-based CRM system for managing clients, properties, visit schedules, and rental management.',
-  image: 'https://images.unsplash.com/photo-1530231760619-bd2d7de0f8d2?auto=format&fit=crop&w=1500&q=80',
-  tags: ['Spring Boot', 'React', 'Java', 'Real Estate', 'CRM'],
-  demoUrl: '#',
-  repoUrl: '#',
-  fullDescription: 'This web-based CRM system is designed for retail real estate brokers to manage client information, properties, visit schedules, and rental management. Built using Spring Boot for the backend and React for the frontend, the platform allows brokers to add and manage property listings, schedule visits, and handle rental agreements with integrated notification alerts. The system also supports user requirement matching, ensuring efficient client-property pairing. The CRM focuses on internal management without the need for client dashboards or reviews.'
-}
+// {
+//   id: 5,
+//   title: 'Real Estate Broker CRM',
+//   description: 'A web-based CRM system for managing clients, properties, visit schedules, and rental management.',
+//   image: 'https://images.unsplash.com/photo-1530231760619-bd2d7de0f8d2?auto=format&fit=crop&w=1500&q=80',
+//   tags: ['Spring Boot', 'React', 'Java', 'Real Estate', 'CRM'],
+//   demoUrl: '#',
+//   repoUrl: '#',
+//   fullDescription: 'This web-based CRM system is designed for retail real estate brokers to manage client information, properties, visit schedules, and rental management. Built using Spring Boot for the backend and React for the frontend, the platform allows brokers to add and manage property listings, schedule visits, and handle rental agreements with integrated notification alerts. The system also supports user requirement matching, ensuring efficient client-property pairing. The CRM focuses on internal management without the need for client dashboards or reviews.'
+// }
 ,
 {
-  id: 6,
+  id: 5,
   title: 'Number System Conversion Application',
   description: 'A Java-based application for converting numbers between binary, octal, decimal, and hexadecimal number systems.',
-  image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc5e5f?auto=format&fit=crop&w=1500&q=80',
+  image: '../../../public/num2.jpeg',
   tags: ['Java', 'Swing', 'Number Systems', 'Conversion'],
   demoUrl: '#',
-  repoUrl: '#',
+  repoUrl: 'https://github.com/krish26mamtora/Java-Number-System-Converter',
   fullDescription: 'This Java-based application allows users to easily convert numbers between binary, octal, decimal, and hexadecimal systems. The platform offers an interactive user interface built with Java Swing, where users can select input and output number systems for seamless conversions. In addition to conversions, the app provides educational guidance on key concepts like radix, base, and step-by-step conversion methods. Ideal for both beginners and advanced learners, this tool helps users understand the underlying logic behind number system conversions.'
 }
 

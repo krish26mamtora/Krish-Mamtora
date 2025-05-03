@@ -125,8 +125,7 @@ const Contact = () => {
           <div className="contact-info">
             <h3>Let's Connect</h3>
             <p>
-              Feel free to reach out for collaborations, opportunities, or just a friendly chat. 
-             some more text.
+            I'd love to connect for learning, ideas, or just a friendly chat.
             </p>
             
             <div className="contact-methods">

@@ -9,44 +9,44 @@ const projectsData = [
     id: 1,
     title: 'Real-Time Chatting Platform',
     description: 'A PHP-based real-time chatting and social media platform with WebSockets, user authentication, friend system, and live feed.',
-    image: '../../../public/chat1.avif', 
+    image: '/chat1.avif', 
     tags: ['PHP', 'WebSockets', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
     demoUrl: '#', // Replace with actual demo link
     repoUrl: 'https://github.com/krish26mamtora/ChattingWebsite_PHP', // Replace with actual GitHub repo
-    fullDescription: 'This real-time chatting and social media platform is built using PHP and WebSockets to enable low-latency communication between users. It features secure user registration and login with email verification, a friend management system (including search and friend requests), and dynamic post creation with text and image uploads. Users can like and comment on posts in a real-time updated feed. The frontend is crafted with HTML, CSS, JavaScript, and Bootstrap, while PHP handles backend logic and WebSocket server communication.'
+    fullDescription: 'A chatting and social media platform built with PHP that lets users chat in real time. It uses WebSockets to ensure messages are delivered instantly. You can sign up with email, send friend requests, and create posts with text or images. There’s also a live feed where you can like, comment, and interact with other users posts.'
   }
 ,  
 {
   id: 2,
   title: 'Student Strength Analysis System',
   description: 'A web and mobile-based system for analyzing student performance across academic, co-curricular, and extracurricular activities.',
-  image: '../../../public/stu2.png',
+  image: '/stu2.png',
   tags: ['MySQL', 'React', 'Flutter','Express.js', 'Node.js', 'Data Visualization'],
   demoUrl: '#',
   repoUrl: 'https://github.com/Harshdoshi1/HCD-project',
-  fullDescription: 'This student analysis system evaluates student performance based on academic scores, co-curricular, and extracurricular activities. Academic metrics include ESE, IA, CSE, TW, Viva, and faculty feedback, while activity-based inputs include hackathons, internships, events, patents, and sports. Each component is weighted by the HOD to calculate overall strength. The platform supports role-based access for students, parents, faculty, class coordinators, and the HOD. Students and parents can track progress via a web or mobile'
+  fullDescription: 'This system helps track and evaluate student performance across academics, co-curricular, and extracurricular activities. Whether it’s your exam scores, participation in hackathons, sports, or even internships, everything is weighed by the Head of Department to give an overall score. Students, parents, faculty, and coordinators can access the platform via web or mobile to track progress and understand where improvements are needed.'
 }
   ,
   {
     id: 3,
     title: 'Complaint Management System (CMS)',
     description: 'A PHP-based web platform for streamlined complaint handling with real-time updates, admin oversight, and detailed reporting.',
-    image: '../../../public/comp1.jpg', // Replace with your own image if needed
+    image: '/comp1.jpg', // Replace with your own image if needed
     tags: ['PHP', 'JavaScript', 'HTML', 'CSS', 'MySQL'],
     demoUrl: '#', // Replace with actual demo link
     repoUrl: 'https://github.com/krish26mamtora/CMS_PHP_PROJECT', // Replace with actual GitHub repo
-    fullDescription: 'The Complaint Management System (CMS) is a PHP-based platform designed to enhance complaint handling within organizations. It supports user-friendly complaint submissions, real-time status updates, and centralized admin control. Admins review and assign complaints to relevant managers who investigate and resolve the issues. Users receive timely updates, while admins can track performance through comprehensive reports. The system improves transparency, accountability, and user satisfaction by streamlining the entire complaint workflow. Built using PHP and JavaScript for the backend, with a MySQL database and a clean HTML/CSS frontend.'
+    fullDescription: 'This web platform makes managing complaints super easy. Whether you’re submitting a complaint or tracking its status, the system keeps you in the loop with real-time updates. Admins can oversee and assign complaints, and managers can resolve them. The system is built with PHP and MySQL, so it’s efficient, and it helps make the whole complaint-handling process more transparent.'
   }
 , 
 {
   id: 4,
   title: 'Cricket Shot Classification',
   description: 'An ML project to classify cricket shots using short video clips and body landmark detection.',
-  image: '../../../public/shot1.png',
+  image: '/shot1.png',
   tags: ['Python', 'MediaPipe', 'Random Forest', 'ML'],
   demoUrl: '#',
   repoUrl: 'https://github.com/krish26mamtora/ML-Cricket-Shot-Classification',
-  fullDescription: 'This machine learning project classifies different cricket shots (e.g., pull, drive, sweep) using 1–2 second video clips of batsmen. MediaPipe is used to extract 3D body landmarks (x, y, z coordinates), which serve as input features. Various models were tested, including Logistic Regression, SVM, Decision Tree, KNN, and LSTM, with Random Forest achieving the highest accuracy. The system processes video frames, detects poses, and maps body movement patterns to specific shot types, enabling accurate and fast classification.'
+  fullDescription: 'This project uses machine learning to classify different types of cricket shots, such as pull, drive, or sweep, using 2D images of the batsman. By analyzing the body movements in the images with MediaPipe, the system detects key body landmarks and maps those movements to specific shots. Various machine learning models were tested, and Random Forest provided the most accurate results for classifying the shots.'
 }
 ,
 // {
@@ -64,11 +64,11 @@ const projectsData = [
   id: 5,
   title: 'Number System Conversion Application',
   description: 'A Java-based application for converting numbers between binary, octal, decimal, and hexadecimal number systems.',
-  image: '../../../public/num2.jpeg',
+  image: '/num2.jpeg',
   tags: ['Java', 'Swing', 'Number Systems', 'Conversion'],
   demoUrl: '#',
   repoUrl: 'https://github.com/krish26mamtora/Java-Number-System-Converter',
-  fullDescription: 'This Java-based application allows users to easily convert numbers between binary, octal, decimal, and hexadecimal systems. The platform offers an interactive user interface built with Java Swing, where users can select input and output number systems for seamless conversions. In addition to conversions, the app provides educational guidance on key concepts like radix, base, and step-by-step conversion methods. Ideal for both beginners and advanced learners, this tool helps users understand the underlying logic behind number system conversions.'
+  fullDescription: 'This simple app lets you convert numbers between different number systems—binary, octal, decimal, and hexadecimal. Built with Java Swing, it provides an easy-to-use interface where you can select the system you’re working with and convert numbers seamlessly. Plus, it helps you understand the concepts behind number systems, making it a great learning tool for both beginners and advanced users.'
 }
 
 ];

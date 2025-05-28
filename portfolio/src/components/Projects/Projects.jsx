@@ -58,7 +58,19 @@ const projectsData = [
   demoUrl: '#',
   repoUrl: 'https://github.com/krish26mamtora/Java-Number-System-Converter',
   fullDescription: 'This simple app lets you convert numbers between different number systems—binary, octal, decimal, and hexadecimal. Built with Java Swing, it provides an easy-to-use interface where you can select the system you’re working with and convert numbers seamlessly. Plus, it helps you understand the concepts behind number systems, making it a great learning tool for both beginners and advanced users.'
+},
+{
+  id: 6,
+  title: 'EstateMate',
+  description: 'A management platform for brokers to handle properties, rental schedules, visit planning, and user requirements with notification support.',
+  image: '/estatemate.jpeg',
+  tags: ['React', 'Node.js', 'Express.js', 'MySQL', 'Spring Boot','Real Estate'],
+  demoUrl: '#',
+  repoUrl: 'https://github.com/0211Abhay/AWT_Project',
+  fullDescription: 'EstateMate is an internal management system designed exclusively for real estate brokers. It provides tools to efficiently manage property listings, track rental timelines, schedule property visits, and match properties with buyer requirements. The platform also includes automated notifications for due rentals and visit reminders to streamline day-to-day operations. Developed using React for the frontend, it supports both MERN and Spring Boot-based backend versions, ensuring flexibility, reliability, and scalability for broker-centric workflows.'
 }
+
+
 
 ];
 

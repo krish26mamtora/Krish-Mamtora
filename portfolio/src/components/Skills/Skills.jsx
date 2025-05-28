@@ -21,7 +21,8 @@ const skillsData = {
     { name: 'CSS', icon: <FileCode size={20} /> },
     { name: 'JavaScript', icon: <FileCode size={20} /> },
     { name: 'SQL', icon: <Database size={20} /> },
-   
+    { name: 'Spring Boot', icon: <Package size={20} /> },  // <-- Added this line
+
     { name: 'React', icon: <Code size={20} /> },
     { name: 'Node.js', icon: <FileCode size={20} /> },
     { name: 'Express', icon: <Code size={20} /> },

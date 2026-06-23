@@ -42,14 +42,14 @@
   
   .timeline-item.left {
     left: 0;
-    text-align: right;
   }
-  
+
   .timeline-item.right {
     left: 50%;
+  }
+  .timeline-content {
     text-align: left;
   }
-  
   .timeline-item.left::after {
     right: -14px;
   }
@@ -126,16 +126,16 @@
     color: var(--accent);
   }
   
-  .timeline-item.left .achievement-item {
-    text-align: right;
-    padding-left: 0;
-    padding-right: 1.25rem;
+ .timeline-item.left .achievement-item {
+    text-align: left;
+    padding-left: 1.25rem;
+    padding-right: 0;
   }
-  
+
   .timeline-item.left .achievement-item::before {
-    left: auto;
-    right: 0;
-    content: '←';
+    left: 0;
+    right: auto;
+    content: '→';
   }
   
   @media (max-width: 768px) {
